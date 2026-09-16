@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    
+
+    <title>Jelly's Blog</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>My Website</h1>
-    <p>Webページのテストです。</p>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <h1>Jelly's Blog</h1>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#posts">Posts</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <section id="home" class="hero">
+            <h2>Welcome to my blog.</h2>
+            <p>
+                日々のことや興味のあることを書いていく個人ブログです。
+            </p>
+        </section>
+
+
+        <div class="content">
+
+            <section id="posts" class="posts">
+
+                <h2>Latest Posts</h2>
+
+                <article class="post-card">
+                    <p class="post-date">2026.09.16</p>
+
+                    <h3>
+                        <a href="#">ブログを始めました</a>
+                    </h3>
+
+                    <p>
+                        個人Webページを作成しました。
+                        これから少しずつ記事を追加していく予定です。
+                    </p>
+                </article>
+
+
+                <article class="post-card">
+                    <p class="post-date">2026.09.XX</p>
+
+                    <h3>
+                        <a href="#">記事タイトル</a>
+                    </h3>
+
+                    <p>
+                        ここに記事の簡単な説明を書きます。
+                    </p>
+                </article>
+
+            </section>
+
+
+            <aside id="about" class="sidebar">
+
+                <div class="profile-card">
+                    <h2>About</h2>
+
+                    <p>
+                        このブログについての簡単な説明を書きます。
+                    </p>
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Jelly</p>
+    </footer>
+
 </body>
+
 </html>
