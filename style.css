@@ -31,6 +31,21 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 25px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+
+    color: #444444;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .site-header h1 {
