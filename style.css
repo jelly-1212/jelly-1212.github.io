@@ -132,6 +132,21 @@ nav a:hover {
 }
 
 
+/* gallery*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 /* Footer */
 
 footer {
